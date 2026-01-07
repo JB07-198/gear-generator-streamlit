@@ -1,0 +1,82 @@
+# Configuration de Streamlit - Gear Generator
+# Fichier de configuration principal
+
+[theme]
+# Couleurs principales de l'application
+primaryColor = "#1E3A8A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Configuration du serveur
+port = 8501
+address = "0.0.0.0"
+maxUploadSize = 200
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+# Configuration du navigateur
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[global]
+# Paramètres globaux
+developmentMode = true
+showWarningOnDirectExecution = true
+
+[logger]
+# Configuration des logs
+level = "info"
+
+[client]
+# Paramètres client
+caching = true
+showErrorDetails = true
+
+[runner]
+# Configuration de l'exécution
+magicEnabled = false
+installTracer = false
+fixMatplotlib = true
+
+[server]
+# Paramètres avancés du serveur
+maxMessageSize = 200
+enableWebsocketCompression = true
+
+[deprecated]
+# Désactiver les fonctionnalités dépréciées
+showfileUploaderEncoding = false
+
+[mapbox]
+# Configuration Mapbox (si utilisé)
+token = ""
+
+[s3]
+# Configuration S3 (si utilisé)
+accessKeyId = ""
+secretAccessKey = ""
+
+[email]
+# Configuration email (si utilisé)
+smtpHost = ""
+smtpPort = 587
+smtpUsername = ""
+smtpPassword = ""
+
+[connections]
+# Configuration des connexions
+postgresql = ""
+mysql = ""
+snowflake = ""
+
+[tooltips]
+# Activer les tooltips
+enable = true
+
+[experimental_connection]
+# Connexions expérimentales
+enabled = false
